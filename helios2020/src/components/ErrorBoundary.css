@@ -1,0 +1,7 @@
+.errorBoundary{
+    height: 300px;
+    line-height: 250px;
+    margin: 100px 200px;
+    border: 1px solid #DCDCDC;
+    background-color: white;
+}
