@@ -1,10 +1,17 @@
 import React, { Component } from 'react'
-import './PublicContent.css'
+import UserContent from  '../views/UserContent'
+import MsgUpdate from '../views/MsgUpdate'
 
 class PublicContent extends Component{
+    constructor(props){
+        super(props)
+    }
     render(){
         return(
-            <div>content</div>
+            <div style={{display: "flex", height: '100%'}}>
+                <MsgUpdate />
+            </div>
+            
         );
     }
 }

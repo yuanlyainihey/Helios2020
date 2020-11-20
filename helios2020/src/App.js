@@ -10,7 +10,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 const { Header, Content, Footer } = Layout;
 const LayoutStyle = { height: '100vh' };
 const BesideStyle = { backgroundColor: 'White' };
-const ContentStyle = { flex: 1, backgroundColor: 'WhiteSmoke' }
+const ContentStyle = { flex: 1, backgroundColor: 'WhiteSmoke', overflow: 'scoll' }
 
 function App() {
   return (
